@@ -131,25 +131,27 @@
     }
 
     /* زر قناة التليكرام - RGP Glow */
-   .telegram-fixed {
+   .telegram-circle {
   position: fixed;
   bottom: 20px;
   right: 20px;
   z-index: 9999;
-  background: linear-gradient(45deg, #ff416c, #ff4b2b);
+  width: 55px;
+  height: 55px;
+  background: linear-gradient(45deg, #00c6ff, #0072ff);
   color: #fff;
-  font-weight: bold;
-  padding: 10px 20px;
-  border-radius: 30px;
-  border: none;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
   text-decoration: none;
-  box-shadow: 0 0 10px rgba(255, 65, 108, 0.7), 0 0 20px rgba(255, 75, 43, 0.6);
+  box-shadow: 0 0 10px rgba(0, 114, 255, 0.6), 0 0 20px rgba(0, 198, 255, 0.6);
   transition: all 0.3s ease-in-out;
 }
-
-.telegram-fixed:hover {
-  transform: scale(1.05);
-  box-shadow: 0 0 20px rgba(255, 75, 43, 0.9), 0 0 30px rgba(255, 65, 108, 0.8);
+.telegram-circle:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 25px rgba(0, 198, 255, 0.9), 0 0 30px rgba(0, 114, 255, 0.9);
 }
 
     }
